@@ -20,7 +20,8 @@
                 android:layout_centerInParent="true"
                 android:text="基本信息调查"
                 android:textColor="#000000"
-                android:textSize="30dp" />
+                android:textSize="30dp"
+                android:layout_marginLeft="10dp"/>
         </RelativeLayout>
 
         <ImageView
@@ -61,6 +62,23 @@
             </RadioGroup>
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="满意的话请扣一下"
+                android:textSize="17dp"
+                android:textColor="#000000"/>
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Switch" />
+        </LinearLayout>
         <Button
             android:id="@+id/button1"
             android:layout_width="wrap_content"
